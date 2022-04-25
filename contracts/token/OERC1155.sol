@@ -11,12 +11,12 @@ contract OERC1155 is ERC1155{
     uint256 public constant SWORD = 3;
     uint256 public constant SHIELD = 4;
 
-    constructor () ERC1155("TOKEN_1155") {
-        _mint(msg.sender, GOLD, 10**18, "");
-        _mint(msg.sender, SILVER, 10**27, "");
-        _mint(msg.sender, THORS_HAMMER, 1, "");
-        _mint(msg.sender, SWORD, 10**9, "");
-        _mint(msg.sender, SHIELD, 10**9, "");
+    constructor (address creator_user) ERC1155("TOKEN_1155") {
+        _mint(creator_user, GOLD, 1, "");
+        _mint(creator_user, SILVER, 1, "");
+        _mint(creator_user, THORS_HAMMER, 1, "");
+        _mint(creator_user, SWORD, 1, "");
+        _mint(creator_user, SHIELD, 1, "");
 
     }
 
