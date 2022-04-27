@@ -11,6 +11,7 @@ contract creator721 is Ownable{
     INFT NFT;
     uint256 public tokenId;
     address public admin;
+    mapping(uint256 => string) public url;
 
     modifier notContract(){
         require(!Address.isContract(msg.sender),"No contract");
@@ -21,8 +22,9 @@ contract creator721 is Ownable{
         NFT = INFT(_NFT);
     }
 
-    function creatNFT() public notContract{
+    function creatNFT(string memory _url) public notContract{
         ++tokenId;
+        url[tokenId] = _url;
         NFT.safeMint_( msg.sender, tokenId);
     }
     
