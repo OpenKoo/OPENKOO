@@ -1,6 +1,5 @@
 
 ![image](https://raw.githubusercontent.com/OpenKoo/OPENKOO/main/picture/PIC.png)
-
 ## Project Name
 
 OpenKoo
@@ -15,19 +14,17 @@ NFT,Metaverse and GameFi
 
 ## Deployment information
 
-BNB Test Network
-  - URL:https://data-seed-prebsc-1-s1.binance.org:8545/
+BNB Test Network  
 
-
+- URL: https://data-seed-prebsc-1-s1.binance.org:8545/
 
 Address
 
 - CREATOR1155 :0x0D825347237bbd004bb3F7530d4988497B222874
-- CREATOR721  :0x4d2d023e0797e59f50C9d154c1646c64aE412C29
+- CREATOR721 :0x4d2d023e0797e59f50C9d154c1646c64aE412C29
 - CREATOR721R :0xd8EbdbEa6A6Ec5f3Ac87D49073A51F08E356ad9A
 - NFT :0x28bC3932c90395Ac08d0d4be9E7b808d4725d465
 - OERC1155 :0x9c8b7a302449465474a2Ee2aaa628325c873744d
-
 
 ## Links
 
@@ -37,11 +34,11 @@ Contracts:https://github.com/OpenKoo/OPENKOO/tree/main/contracts
 
 Pictures:https://github.com/OpenKoo/OPENKOO/tree/main/picture
 
-Twitter:
+Twitter:https://twitter.com/openkooart
 
-Discord:
+Discord name: OpenKoo#6970
 
-Telegrm:
+Telegrm name: OpenKoo
 
 ## Highlights and Features
 
@@ -52,21 +49,18 @@ OpenKoo is an all-in-one NFT creation platform which is open and accessible to e
 4.Able to set unified rarity parameters.  
 5.Able to DIY personal or unique rarity parameters.  
 
-## UI
-![image](https://raw.githubusercontent.com/OpenKoo/OPENKOO/main/picture/PIC.png)
+## Team
 
-## Basic Sample Hardhat Project
+### Introduction
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Amwalker Team has years of experience in crypto space and was working in IT development market before the crypto industry emerged. Each member of the team is creatively contributing to web2 or web3 projects. We are on the road to building more in crypto’s future.
 
-Try running some of the following tasks:
+### Members
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+1.Felix Lee  Key developer
+
+Provides the concept and principles of the project and leads the tech team to fully implement them.
+
+2.Flexming Lucas  Key developer
+
+Designs and tests most technical issues in detail
