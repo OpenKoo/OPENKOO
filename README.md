@@ -67,6 +67,9 @@ Provides the concept and principles of the project and leads the tech team to fu
 Designs and tests most technical issues in detail
 
 ## TEST_Contract
-Install the dependencies required by the project
 
-'npm install'
+### How to Install
+
+```
+npm install
+```
