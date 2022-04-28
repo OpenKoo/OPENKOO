@@ -65,3 +65,8 @@ Provides the concept and principles of the project and leads the tech team to fu
 2.Flexming Lucas  Key developer
 
 Designs and tests most technical issues in detail
+
+## TEST_Contract
+Install the dependencies required by the project
+
+'npm install'
