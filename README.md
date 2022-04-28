@@ -48,6 +48,7 @@ OpenKoo is an all-in-one NFT creation platform which is open and accessible to e
 3.Provide decentralized file storage.  
 4.Able to set unified rarity parameters.  
 5.Able to DIY personal or unique rarity parameters.  
+6.The NFT space needs greater accountability. The space faces too many rugpulls and for the health of the NFT ecosystem as a whole we need better mechanisms to prevent these from happening.Offering refunds provides greater protection for buyers and more legitimacy for creators.ERC721R provides trustless refunds.
 
 ## Team
 
