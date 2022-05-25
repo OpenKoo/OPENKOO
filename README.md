@@ -55,21 +55,6 @@ OpenKoo is an all-in-one NFT creation platform which is open and accessible to e
 
 2.ERC1155:ERC1155 is a novel token standard. It combines the advantages of previous token standards to create an irreplaceable and efficient token contract.The distinctive feature of ERC1155 is that it uses a single smart contract to represent multiple tokens at once.
 
-## Team
-
-### Introduction
-
-Amwalker Team has years of experience in crypto space and was working in IT development market before the crypto industry emerged. Each member of the team is creatively contributing to web2 or web3 projects. We are on the road to building more in crypto’s future.
-
-### Members
-
-1.Felix Lee  Key developer
-
-Provides the concept and principles of the project and leads the tech team to fully implement them.
-
-2.Flexming Lucas  Key developer
-
-Designs and tests most technical issues in detail
 
 ## TEST_Contract
 
