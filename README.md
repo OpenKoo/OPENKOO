@@ -1,5 +1,5 @@
 
-![image](https://raw.githubusercontent.com/OpenKoo/OPENKOO/main/picture/PIC.png)
+![image](https://raw.githubusercontent.com/OpenKoo/OPENKOO/main/picture/openkoo.jpg)
 ## Project Name
 
 OpenKoo
