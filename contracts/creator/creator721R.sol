@@ -19,12 +19,12 @@ contract creator721R is ERC721A, Ownable{
     constructor() ERC721A("KOO","KOO"){
         _agent = msg.sender;
     }
-    
+    //The detection address cannot be called by a contract
     modifier notContract(){
         require(!Address.isContract(msg.sender),"No contract");
         _;
     }
-
+    //Additional NFT issuance
     function publicMint(uint256 amount) public payable notContract(){
 
         require(msg.value >= amount*mintPrice ,"Not enough eth sent");
@@ -34,20 +34,20 @@ contract creator721R is ERC721A, Ownable{
         _safeMint(msg.sender, amount);
 
     }
-
+    //Set proxy address
     function setAgent(address agent) public onlyOwner(){
         _agent = agent;
     }
-
+    //Admin additional issuance
     function ownerMint(uint256 amount) public onlyOwner(){
         _safeMint( msg.sender, amount);
     } 
-
+    //Withdraw to address
     function withdraw() public onlyOwner(){
         uint256 balance = address(this).balance;
         Address.sendValue(payable(owner()),balance);
     }
-
+    //Bulk refund
     function refund(uint256[] calldata tokenIds) external {
         require(refundState == true , "can't to refund");
 
