@@ -11,6 +11,10 @@ contract creator1155 is Ownable {
     }
 
     address public new1155Token;
+    /**
+        * @notice Create 1155
+        * @param user Create 1155 to the user's address
+     */
     function creat1155Token(address user) public returns(address){
         address token = address(new OERC1155(user));
         new1155Token = token;
