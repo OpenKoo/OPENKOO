@@ -16,7 +16,7 @@ contract NFT is ERC721 , Ownable {
         require(msg.sender == creator);
         _;
     }
-
+    //Initialize the contract
     function initialize(address _creator) public onlyOwner(){
         creator = _creator;
     }

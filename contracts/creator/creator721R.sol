@@ -15,7 +15,7 @@ contract creator721R is ERC721A, Ownable{
 
     mapping(address => uint256) public userMintAmount;
 
-
+    //Set the proxy address, the default is the address where the contract is deployed
     constructor() ERC721A("KOO","KOO"){
         _agent = msg.sender;
     }
@@ -60,7 +60,7 @@ contract creator721R is ERC721A, Ownable{
         uint256 refundAmount = tokenIds.length * mintPrice;
         Address.sendValue(payable(msg.sender), refundAmount);
     }
-
+    //Refund switch
     function refundActive() public onlyOwner {
         refundState = !refundState;
     }
