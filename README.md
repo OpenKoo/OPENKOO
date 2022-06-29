@@ -56,8 +56,6 @@ OpenKoo is an all-in-one NFT creation platform which is open and accessible to e
 2.ERC1155:ERC1155 is a novel token standard. It combines the advantages of previous token standards to create an irreplaceable and efficient token contract.The distinctive feature of ERC1155 is that it uses a single smart contract to represent multiple tokens at once.
 
 
-## TEST_Contract
-
 ### How to Install
 
 ```
